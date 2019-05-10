@@ -1,0 +1,18 @@
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> numsMap = new HashMap<>();   
+        int[] array = new int[2];
+        
+        for(int i= 0; i < nums.length; i++){
+            if(numsMap.containsKey(target-nums[i])){
+                array[0] = numsMap.get(target-nums[i]);
+                array[1] = i;
+                return array;
+            }
+            numsMap.put(nums[i], i);
+        }
+        
+        throw new IllegalArgumentException("No sum solution found");
+        
+    }
+}

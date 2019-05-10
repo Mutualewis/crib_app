@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "655479299063",
+    "firebase_url": "https://nkgea-stocks.firebaseio.com",
+    "project_id": "nkgea-stocks",
+    "storage_bucket": "nkgea-stocks.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655479299063:android:62612deba3f693b9",
+        "android_client_info": {
+          "package_name": "com.nkg.consumable_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655479299063-r7707g9uniu35eh9fle100iahf04mu20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-E8fuXOv2jNQUtwMY7yhyPpjZ8uIg1aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655479299063-r7707g9uniu35eh9fle100iahf04mu20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
